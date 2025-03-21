@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Feed</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-header">
+        <img
+          id="profileImage"
+          class="profile-pic"
+          src=""
+          alt="Profile Picture"
+        />
+        <h2 id="displayName"></h2>
+        <p><strong>Birthday:</strong> <span id="displayBirthday"></span></p>
+        <p><strong>About Me:</strong> <span id="displayBio"></span></p>
+        <p><strong>Quote:</strong> <span id="displayQuote"></span></p>
+      </div>
+
+      <div class="post-section">
+        <input type="text" id="postInput" placeholder="Enter your status..." />
+        <button id="postBtn">Post</button>
+      </div>
+
+      <div class="feed">
+        <h3>My Feed</h3>
+        <div id="feedContainer"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
